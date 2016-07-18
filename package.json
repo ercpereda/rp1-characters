@@ -1,0 +1,29 @@
+{
+  "name": "rp1-characters",
+  "version": "0.1.0",
+  "description": "Get random character from Ready Player One book",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ercpereda/rp1-characters.git"
+  },
+  "keywords": [
+    "random",
+    "rp1",
+    "ready",
+    "player",
+    "one"
+  ],
+  "author": "Ernesto R. C. Pereda <ercp42@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ercpereda/rp1-characters/issues"
+  },
+  "homepage": "https://github.com/ercpereda/rp1-characters#readme",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
