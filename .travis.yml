@@ -1,18 +1,21 @@
 sudo: false
 language: node_js
 node_js:
-- '6'
+  - '6'
 cache:
   directories:
   - node_modules
 notifications:
   email: false
 before_install:
-- npm i -g npm@^3.9.5
+  - npm i -g npm@^3.9.5
 before_script:
-- npm prune
+  - npm prune
 script:
-- npm test
+  - npm test
+  - npm run check-coverage
+after_success:
+  - npm run report-coverage
 deploy:
   provider: npm
   email: ercp42@gmail.com
