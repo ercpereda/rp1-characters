@@ -41,5 +41,9 @@ jspm_packages
 # Optional REPL history
 .node_repl_history
 
-# Istanbul coverage
+# Coverage
 coverage
+.nyc_output
+
+# Babel build
+dist

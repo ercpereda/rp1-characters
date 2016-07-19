@@ -1,5 +1,5 @@
-const uniqueRandomArray = require('unique-random-array');
-const rp1Characters = require('./rp1-characters.json');
+import uniqueRandomArray from 'unique-random-array';
+import rp1Characters from './rp1-characters.json';
 
 module.exports = {
   all: rp1Characters,

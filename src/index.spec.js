@@ -1,5 +1,5 @@
-const expect = require('chai').expect;
-const lib = require('./index');
+import {expect} from 'chai';
+import lib from './index';
 
 describe('rp1-characters', () => {
   describe('all', () => {
