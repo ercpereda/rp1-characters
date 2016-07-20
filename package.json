@@ -1,6 +1,6 @@
 {
   "name": "rp1-characters",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Get random character from Ready Player One book",
   "main": "dist/index.js",
   "scripts": {

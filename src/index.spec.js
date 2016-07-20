@@ -23,5 +23,13 @@ describe('rp1-characters', () => {
       const randomItem = lib.random();
       expect(lib.all).to.include(randomItem);
     });
+
+    it('should return an array of random items if passed a number', () => {
+      const randomItems = lib.random(3);
+      expect(randomItems).to.have.length(3);
+      randomItems.forEach((item) => {
+        expect(lib.all).to.include(item);
+      });
+    });
   });
 });
