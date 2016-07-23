@@ -28,3 +28,4 @@ deploy:
   on:
     tags: true
     repo: ercpereda/rp1-characters
+    branch: master
