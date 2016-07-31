@@ -19,6 +19,7 @@ script:
   - npm run cover 
   - npm run check-coverage
   - npm run build
+  - npm run jsdoc
 after_success:
   - npm run report-coverage
 deploy:

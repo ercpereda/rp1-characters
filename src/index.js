@@ -1,14 +1,25 @@
+/**
+ * Ready Player One Characters Generator
+ * @module rp1-characters
+ */
+
 import uniqueRandomArray from 'unique-random-array';
 import rp1Characters from './rp1-characters.json';
 
 const getRandomItem = uniqueRandomArray(rp1Characters);
 
-module.exports = {
-  all: rp1Characters,
-  random
-};
+/**
+ * Return all characters.
+ * @type {Object[]}
+ */
+module.exports.all = rp1Characters;
 
-function random(n) {
+/**
+ * Get random characters
+ * @param {number} [n=1] - How many values should be return
+ * @return {Object[]} - Return random characters
+ */
+module.exports.random = function(n) {
   if (n === undefined) {
     return getRandomItem();
   }
@@ -19,4 +30,4 @@ function random(n) {
     items.push(getRandomItem());
   }
   return items;
-}
+};

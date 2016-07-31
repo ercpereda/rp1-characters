@@ -48,3 +48,6 @@ coverage.lcov
 
 # Babel build
 dist
+
+# Documentation
+doc
