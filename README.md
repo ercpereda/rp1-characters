@@ -23,7 +23,7 @@ $ npm install rp1-characters
 </head>
 <body>
 .......
-<script src="https://npmcdn.com/rp1-characters/dist/index.umd.js"></script>
+<script src="https://unpkg.com/rp1-characters/dist/index.umd.js"></script>
 </body>
 </html>
 ```
